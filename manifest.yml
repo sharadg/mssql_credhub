@@ -1,0 +1,8 @@
+applications:
+  - name: playground
+    hostname: playground
+    memory: 1G
+    instances: 1
+    path: ./target/playground-0.0.1-SNAPSHOT.jar
+    timeout: 180
+    buildpack: java_buildpack_offline
